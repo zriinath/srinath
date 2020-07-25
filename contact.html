@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>contact info</title>
+  </head>
+  <body>
+      <h1>Register:</h1>
+      <form class="" action="mailto:example@gmail.com" method="post" enctype="text/plain">
+        <label for="nameBox">Name:</label>
+        <input type="text" name="nameBox" value="" placeholder="Enter name" required><br><br>
+        <label for="emailBox">Email ID:</label>
+        <input type="email" name="emailBox" value="" placeholder="example@gmail.com"><br><br>
+        <label for="numBox">Mobile:</label>
+        <input type="number" name="numBox" value="" required><br><br>
+        <label for="dateBox">Date:</label>
+        <input type="date" name="dateBox" value=""><br><br>
+        <label for="sexBox">Sex:</label><br>
+        <input type="radio" name="sexBox" value="Male"><span>Male</span>
+        <input type="radio" name="sexBox" value="Female"><span>Female</span>
+        <input type="radio" name="sexBox" value="Other"><span>Others</span><br><br>
+        <label for="profBox">Profession:</label>
+        <select class="" name="profBox">
+          <option value="Student">Student</option>
+          <option value="Professional">Professional</option>
+        </select><br><br>
+        <label for="check">Area of interest(s):</label><br>
+        <input type="checkbox" name="check" value="Science"><span>Science</span>
+        <input type="checkbox" name="check" value="Engineering"><span>Engineering</span>
+        <input type="checkbox" name="check" value="Medicine"><span>Medicine</span>
+        <input type="checkbox" name="check" value="Literature"><span>Literature</span>
+        <input type="checkbox" name="check" value="Arts"><span>Arts</span>
+        <input type="checkbox" name="check" value="Technology"><span>Technology</span><br><br>
+        <label for="qBox">Your query:</label><br>
+        <textarea name="qBox" rows="8" cols="50" form="usrform" placeholder="Enter here" required></textarea><br><br>
+        <label for="rangeBox">Rate:</label><br>
+        <input type="range" name="rangeBox" value="" min="0" max="10" step="2"><br><br>
+        <label for="resetBox"></label>
+        <input type="reset" name="resetBox" value="Reset">
+        <input type="submit" name="submitBox" value="Submit">
+      </form>
+
+
+  </body>
+</html>
